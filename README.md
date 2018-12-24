@@ -16,7 +16,7 @@ _All of the following modules are for Python3 only_
 1. [Numpy](http://www.numpy.org/) or `pip3 install numpy`
 
 **Installation:**
-1. `cd $HOME && git clone https://github.com/DXL0xff/StalkTheNET.git`
+1. `cd $HOME/Documents/ && git clone https://github.com/DXL0xff/StalkTheNET.git`
 1. `cd StalkTheNET/`
 1. `python3 installer.py -make` 
    1. **Note: This operation may take some time depending on the end users upload and download speeds**
