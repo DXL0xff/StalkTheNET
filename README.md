@@ -30,7 +30,7 @@ _THE `IP_serv02_sed.txt`, `IP_serv03_sed.txt`, `IP_serv04_sed.txt` FILES PRECONT
 1. `python3 --installer.py -make`
    1. Use this step if you do not have `ipcam_whitelist.txt` & `ipcam_blacklist.txt` in your current working directory
    
-The following method listed below if for replacing the target hosts with updated information from refreshed [shodan](shodan.io) queries, this process will be used in conjunction with `installer.py` which is used to separate the remote hosts into `ipcam_whitelist.txt` or `ipcam_blacklist.txt`, only use target information from `ipcam_whitelist.txt` with `stalkthenet.py`, avoid using and disregard the information from `ipcam_blacklist.txt`
+The following method listed below is for replacing the target hosts with updated information from refreshed [shodan](shodan.io) queries, this process will be used in conjunction with `installer.py` which is used to separate the remote hosts into `ipcam_whitelist.txt` or `ipcam_blacklist.txt` files respectively, only use target information from `ipcam_whitelist.txt` with `stalkthenet.py`, avoid using and disregard the information from `ipcam_blacklist.txt`
 
 **Manual IP Webcam Server 0.2-0.4 update:**
 _You will need a shodan account to continue_
