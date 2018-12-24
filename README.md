@@ -20,10 +20,17 @@ _All of the following modules are for Python3 only_
 1. `cd StalkTheNET/`
 1. `python3 installer.py -make` 
    1. **Note: This operation may take some time depending on the end users upload and download speeds**
+   1. This step will be used to create `ipcam_whitelist.txt` & `ipcam_blacklist.txt` files for `stalkthenet.py`
 1. `python3 stalkthenet.py --host http://<target_address:port>` 
    1. **The <target_address:port> can be obtained from "ipcam_whitelist.txt"**
 
 _THE `IP_serv02_sed.txt`, `IP_serv03_sed.txt`, `IP_serv04_sed.txt` FILES PRECONTAIN REMOTE HOST INFORMATION FOR YOU. SEE BELOW ON HOW TO UPDATE_
+
+**Automatic IP Webcam Server 0.2-0.4 update with `installer.py`:**
+1. `python3 --installer.py -make`
+   1. Use this step if you do not have `ipcam_whitelist.txt` & `ipcam_blacklist.txt` in your current working directory
+   
+The following method listed below if for replacing the target hosts with updated information from refreshed [shodan](shodan.io) queries, this process will be used in conjunction with `installer.py` which is used to separate the remote hosts into `ipcam_whitelist.txt` or `ipcam_blacklist.txt`, only use target information from `ipcam_whitelist.txt` with `stalkthenet.py`, avoid using and disregard the information from `ipcam_blacklist.txt`
 
 **Manual IP Webcam Server 0.2-0.4 update:**
 _You will need a shodan account to continue_
