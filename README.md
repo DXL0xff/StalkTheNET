@@ -45,3 +45,4 @@ _You will need a Shodan account to continue_
 1. `rm ipcam_* && python3 installer.py -make`
 
 _INFO: Future updates for StalkTheNET will be available in the near future #Secure2019_
+_StalkTheNET will eventually merge into the GlobalWatch framework, and be formatted to work as a plugin, along with other methods for interacting with open remote IP Webcam hosts across the internet such as [Yawcam](https://www.yawcam.com)_
