@@ -14,7 +14,7 @@ _All of the following modules are for Python3 only_
 1. [OpenCV](https://opencv.org/) or `pip3 install cv2`
 1. [Urllib](https://docs.python.org/3/library/urllib.html) or `pip3 install urllib` 
 1. [Numpy](http://www.numpy.org/) or `pip3 install numpy`
-1. [Requests](http://docs.python-requests.org/en/master/)
+1. [Requests](http://docs.python-requests.org/en/master/) or `pip3 install requests`
 
 **Installation:**
 1. `cd $HOME/Documents/ && git clone https://github.com/DXL0xff/StalkTheNET.git`
